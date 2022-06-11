@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Love';
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format('truetype');
+}
+
+body {
+    background-color: #E8E5C2;
+    margin: 0px;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+p#texto {
+    font: normal 14px arial, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(190, 190, 190);
+    padding-bottom: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+header {
+    background-image: linear-gradient(to top, #043D1D, #29A25F);
+    margin-top: -23px;
+    color: white;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.63);
+}
+
+h2 {
+    background-image: linear-gradient(to right, #29a25f77, white);
+}
+
+nav > a {
+    color: rgb(125, 173, 125);
+    text-decoration: none;
+    margin: 10px;
+
+}
+
+nav > a:hover {
+    background-color: #29a25f77;
+    height: 1px;
+}
+
+main {
+    background-color: white;
+    text-align: justify;
+    text-indent: 20px;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.473);
+}
+
+.titulorodape {
+    background-color: green;
+    color: white;
+    padding: 2px;
+    margin: -20px -10px 20px -10px;
+    border-radius: 10px
+}
+
+section#rodape {
+    background-color: #84cfa6;
+    padding: 20px;
+    border-radius: 10px;
+}
